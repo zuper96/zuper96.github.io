@@ -32,6 +32,6 @@ topnav_dropdowns:
         - title: Jekyll on Stack Overflow
           external_url: http://stackoverflow.com/questions/tagged/jekyll
     - title: About
-	  folderitems:
+      folderitems:
         - title: About
           external_url: /about.html
