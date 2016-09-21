@@ -43,7 +43,7 @@ Untuk membuat jekyl portable pertama harus disiapkan berikut ini :
 7. Double klik file `setpath.cmd` yang dibuat tadi
 8. Sekarang masuk ke folder `rubyDevKit` dan ketik pada terminal `ruby dk.rb init` setelah selesai ketik lagi `ruby dk.rb install` setelah itu kembali lagi ke folder `jekyll-potable`
 9. Install Bundler : ketik `gem install bundler`
-10. Inisialisasi Bundler : ketik `bundle inti` maka secara otomatis akan membuat file `Gemfile`
+10. Inisialisasi Bundler : ketik `bundle init` maka secara otomatis akan membuat file `Gemfile`
 11. Dengan teks editor buka file `Gemfile` secara default berikut isinya :
 
     ```
