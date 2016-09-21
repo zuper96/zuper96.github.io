@@ -4,8 +4,6 @@ title: About
 permalink: about.html
 ---
 
-### About Blog
-
 Ilmu yang begitu luas jika tidak digunakan dan ditulis maka akan hilang. Untuk mengatasi hal ini saya biasa menulis di buku tulis biasa, makin lama tulisan makin banyak sehingga proses pencarian semakin sulit dan tidak bisa diakses dengan mudah. Dengan menulis di blog saya bisa dengan mudah melakukan pencarian dan mudah di akses dari mana saja.
 
 Blog ini merupakan catatan pribadi saya semata, jika pembaca memahami dan mendapatkan manfaat dari blog ini saya ikut senang. Blog ini saya tulis secara spontan saja(suka-suka gw). 
