@@ -2,9 +2,8 @@
 title: Blog
 sidebar: home_sidebar
 keywords: news, blog, updates, release notes, announcements
-permalink: blog.html
+permalink: index.html
 toc: false
-folder: blog
 ---
 
 <div class="home">
