@@ -18,8 +18,3 @@ quote untuk mengingatkan diri saya:
 maka
 Anda belum bisa memahami dengan cukup baik." (Albert Einstein)
 
-
-### Contact me
-
-Kritik dan saran bisa dilayangkan ke email berikut :
-[agus.zupri96@gmail.com](mailto:agus.zupri96@gmail.com)

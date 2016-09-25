@@ -110,7 +110,7 @@ Untuk membuat jekyl portable pertama harus disiapkan berikut ini :
     * [wdm](https://rubygems.org/gems/wdm), '>= 0.1.0'
 
 
-    untuk ingin memasang jekyll bisa menggunakan perintah `gem install jekyll` pada terminal, memasang Redcloth `gem install Redcloth` dan seterusnya. Dengan cara manual tersebut akan sangat merepotkan dan memakan waktu lama dengan memasukan ke `Gemfile` maka akan secara otomatis terinstall	berikut isi `Gemfile`nya :
+    untuk memasang jekyll bisa menggunakan perintah `gem install jekyll` pada terminal, Redcloth `gem install Redcloth` dan seterusnya. Dengan cara manual tersebut akan sangat merepotkan dan memakan waktu lama, dengan memasukan ke `Gemfile` maka akan secara otomatis terinstall	berikut isi `Gemfile`nya :
 
     ```
     # A sample Gemfile
