@@ -40,6 +40,12 @@ port: 4005
 # feedback_link: "http://helpy.io/"
 # if you uncomment the previous line, it changes where the feedback link points to
 
+# ID Pelacakan Google Analytics
+google_analytics: UA-85053384-1
+
+# Site ID Histats
+histats: 3601171
+
 highlighter: rouge
 # library used for syntax highlighting
 
