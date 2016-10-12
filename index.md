@@ -26,7 +26,7 @@ toc: false
         <p><a href="feed.xml"" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
 
 <hr />
-        <p>See more posts from the <a href="blog_archive.html">News Archive</a>. </p>
+        <p>Lihat Lebih banyak di <a href="blog_archive.html">Blog Archive</a>. </p>
 
 
 </div>

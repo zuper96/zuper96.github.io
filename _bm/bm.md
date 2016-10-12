@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: bm
 title: Bookmark
-permalink: bm.html
+permalink: /bm/
 ---
 
 

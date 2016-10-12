@@ -60,6 +60,9 @@ kramdown:
 collections:
   tooltips:
     output: false
+  bm:
+    output: true
+    permalink: /bm/:path/
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
@@ -96,7 +99,7 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
-- azydoc_sidebar
+- vagrant_sidebar
 - product1_sidebar
 - product2_sidebar
 - other
