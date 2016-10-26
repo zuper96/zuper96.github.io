@@ -31,9 +31,9 @@ entries:
       url: /vagrant-cli.html
       output: web, pdf
 
-#    - title: Supported features
-#      url: /mydoc_supported_features.html
-#      output: web, pdf
+    - title: Menambahkan box
+      url: vagrant-menambahkan-box.html
+      output: web, pdf
 #
 #    - title: About the theme author
 #      url: /mydoc_about.html

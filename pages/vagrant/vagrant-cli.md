@@ -2,6 +2,7 @@
 title:  "Vagrant Command Line Interface"
 categories: Vagrant
 permalink: vagrant-cli.html
+sidebar: vagrant_sidebar
 folder: vagrant
 ---
 

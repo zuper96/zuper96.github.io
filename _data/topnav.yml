@@ -11,6 +11,8 @@ topnav_dropdowns:
   folders:
     - title: Doc
       folderitems:
+        - title: vagrant
+          url: /vagrant-vagrantfile.html
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
         - title: Product 1

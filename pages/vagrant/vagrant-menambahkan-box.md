@@ -1,6 +1,7 @@
 ---
 title:  "Menambahkan Box"
 categories: Vagrant
+sidebar: vagrant_sidebar
 permalink: vagrant-menambahkan-box.html
 folder: vagrant
 ---

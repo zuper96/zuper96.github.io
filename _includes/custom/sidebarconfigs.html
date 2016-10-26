@@ -10,11 +10,14 @@
 {% elsif page.sidebar == "mydoc_sidebar" %}
 {% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
 
-{% elsif page.sidebar == "mydoc_sidebar" %}
+{% elsif page.sidebar == "vagrant_sidebar" %}
 {% assign sidebar = site.data.sidebars.vagrant_sidebar.entries %}
 
-{% elsif page.sidebar == "mydoc_sidebar" %}
+{% elsif page.sidebar == "git_sidebar" %}
 {% assign sidebar = site.data.sidebars.git_sidebar.entries %}
+
+{% elsif page.sidebar == "composer_sidebar" %}
+{% assign sidebar = site.data.sidebars.composer_sidebar.entries %}
 
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}

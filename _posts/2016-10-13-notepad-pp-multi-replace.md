@@ -9,7 +9,7 @@ tags: [news]
 
 Untuk menghapus satu atau dua komentar di dalam kode program cukup dengan menggunakan tombol delete saja sudah selesai, tapi bagaimana jika kita ingin menghapus banyak komentar yang posisinya terkadang terselip dengan kode program atau banyak file?. Jika melakukan dengan select all delete tentu semua kode program akan ikut terhapus dan apabila melakukan select satu persatu tentu akan memakan waktu. Berikut cara melakuka replace/delete dengan notepad++
 
-![notepad++ replace](images/notepad-replace.JPG)
+![notepad++ replace](images/notepad-replace.jpg)
 
 ### Menghapus dalam satu file
 

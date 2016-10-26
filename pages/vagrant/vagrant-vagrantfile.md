@@ -2,6 +2,7 @@
 title:  "Vagranfile"
 categories: Vagrant
 permalink: vagrant-vagrantfile.html
+sidebar: vagrant_sidebar
 folder: vagrant
 ---
 
