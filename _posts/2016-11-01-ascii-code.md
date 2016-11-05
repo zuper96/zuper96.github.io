@@ -1174,7 +1174,7 @@ datatable: true
 	</tbody>
 </table>
 
-![ascii code](images/ascii-code.jpg)
+[Image Ascii](/images/ascii-code.jpg)
 
 
 <script>
