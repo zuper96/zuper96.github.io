@@ -11,21 +11,25 @@ datatable: true
 ### admin\controller\
 
 analytics\google_analytics.php #class ControllerAnalyticsGoogleAnalytics extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 captcha\basic_captcha.php #class ControllerCaptchaBasicCaptcha extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 captcha\google_captcha.php #class ControllerCaptchaGoogleCaptcha extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 catalog\attribute.php #class ControllerCatalogAttribute extends Controller
+
     private $error
     public function index()
     public function add()
@@ -38,6 +42,7 @@ catalog\attribute.php #class ControllerCatalogAttribute extends Controller
     public function autocomplete()
 
 catalog\attribute_group.php #class ControllerCatalogAttributeGroup extends Controller
+
     private $error
     public function index()
     public function add()
@@ -49,6 +54,7 @@ catalog\attribute_group.php #class ControllerCatalogAttributeGroup extends Contr
     protected function validateDelete()
 
 catalog\category.php #class ControllerCatalogCategory extends Controller
+
     private $error
     public function index()
     public function add()
@@ -63,6 +69,7 @@ catalog\category.php #class ControllerCatalogCategory extends Controller
     public function autocomplete()
 
 catalog\download.php #class ControllerCatalogDownload extends Controller
+
     private $error
     public function index()
     public function add()
@@ -76,6 +83,7 @@ catalog\download.php #class ControllerCatalogDownload extends Controller
     public function autocomplete()
 
 catalog\filter.php #class ControllerCatalogFilter extends Controller
+
     private $error
     public function index()
     public function add()
@@ -88,6 +96,7 @@ catalog\filter.php #class ControllerCatalogFilter extends Controller
     public function autocomplete()
 
 catalog\information.php #class ControllerCatalogInformation extends Controller
+
     private $error
     public function index()
     public function add()
@@ -99,6 +108,7 @@ catalog\information.php #class ControllerCatalogInformation extends Controller
     protected function validateDelete()
 
 catalog\manufacturer.php #class ControllerCatalogManufacturer extends Controller
+
     private $error
     public function index()
     public function add()
@@ -111,6 +121,7 @@ catalog\manufacturer.php #class ControllerCatalogManufacturer extends Controller
     public function autocomplete()
 
 catalog\option.php #class ControllerCatalogOption extends Controller
+
     private $error
     public function index()
     public function add()
@@ -123,6 +134,7 @@ catalog\option.php #class ControllerCatalogOption extends Controller
     public function autocomplete()
 
 catalog\product.php #class ControllerCatalogProduct extends Controller
+
     private $error
     public function index()
     public function add()
@@ -137,6 +149,7 @@ catalog\product.php #class ControllerCatalogProduct extends Controller
     public function autocomplete()
 
 catalog\recurring.php #class ControllerCatalogRecurring extends Controller
+
     private $error
     public function index()
     public function add()
@@ -150,6 +163,7 @@ catalog\recurring.php #class ControllerCatalogRecurring extends Controller
     protected function validateCopy()
 
 catalog\review.php #class ControllerCatalogReview extends Controller
+
     private $error
     public function index()
     public function add()
@@ -161,55 +175,69 @@ catalog\review.php #class ControllerCatalogReview extends Controller
     protected function validateDelete()
 
 common\column_left.php #class ControllerCommonColumnLeft extends Controller
+
     public function index()
 
 common\dashboard.php #class ControllerCommonDashboard extends Controller
+
     public function index()
 
 common\filemanager.php #class ControllerCommonFileManager extends Controller
+
     public function index()
     public function upload()
     public function folder()
     public function delete()
 
 common\footer.php #class ControllerCommonFooter extends Controller
+
     public function index()
 
 common\forgotten.php #class ControllerCommonForgotten extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 common\header.php #class ControllerCommonHeader extends Controller
+
     public function index()
 
 common\login.php #class ControllerCommonLogin extends Controller
+
     private $error
     public function index()
     protected function validate()
     public function check()
 
 common\logout.php #class ControllerCommonLogout extends Controller
+
     public function index()
 
 common\menu.php #class ControllerCommonMenu extends Controller
+
     public function index()
 
 common\profile.php #class ControllerCommonProfile extends Controller
+
     public function index()
 
 common\reset.php #class ControllerCommonReset extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 common\sass.php #class ControllerCommonSass extends Controller
+
     public function index()
 
 common\stats.php #class ControllerCommonStats extends Controller
+
     public function index()
 
 customer\customer.php #class ControllerCustomerCustomer extends Controller
+
     private $error
     public function index()
     public function add()
@@ -236,6 +264,7 @@ customer\customer.php #class ControllerCustomerCustomer extends Controller
     public function address()
 
 customer\customer_group.php #class ControllerCustomerCustomerGroup extends Controller
+
     private $error
     public function index()
     public function add()
@@ -247,6 +276,7 @@ customer\customer_group.php #class ControllerCustomerCustomerGroup extends Contr
     protected function validateDelete()
 
 customer\custom_field.php #class ControllerCustomerCustomField extends Controller
+
     private $error
     public function index()
     public function add()
@@ -258,32 +288,41 @@ customer\custom_field.php #class ControllerCustomerCustomField extends Controlle
     protected function validateDelete()
 
 dashboard\activity.php #class ControllerDashboardActivity extends Controller
+
     public function index()
 
 dashboard\chart.php #class ControllerDashboardChart extends Controller
+
     public function index()
     public function chart()
 
 dashboard\customer.php #class ControllerDashboardCustomer extends Controller
+
     public function index()
 
 dashboard\map.php #class ControllerDashboardMap extends Controller
+
     public function index()
     public function map()
 
 dashboard\online.php #class ControllerDashboardOnline extends Controller
+
     public function index()
 
 dashboard\order.php #class ControllerDashboardOrder extends Controller
+
     public function index()
 
 dashboard\recent.php #class ControllerDashboardRecent extends Controller
+
     public function index()
 
 dashboard\sale.php #class ControllerDashboardSale extends Controller
+
     public function index()
 
 design\banner.php #class ControllerDesignBanner extends Controller
+
     private $error
     public function index()
     public function add()
@@ -295,6 +334,7 @@ design\banner.php #class ControllerDesignBanner extends Controller
     protected function validateDelete()
 
 design\layout.php #class ControllerDesignLayout extends Controller
+
     private $error
     public function index()
     public function add()
@@ -306,13 +346,16 @@ design\layout.php #class ControllerDesignLayout extends Controller
     protected function validateDelete()
 
 error\not_found.php #class ControllerErrorNotFound extends Controller
+
     public function index()
 
 error\permission.php #class ControllerErrorPermission extends Controller
+
     public function index()
     public function check()
 
 extension\analytics.php #class ControllerExtensionAnalytics extends Controller
+
     private $error
     public function index()
     public function install()
@@ -321,6 +364,7 @@ extension\analytics.php #class ControllerExtensionAnalytics extends Controller
     protected function validate()
 
 extension\captcha.php #class ControllerExtensionCaptcha extends Controller
+
     private $error
     public function index()
     public function install()
@@ -329,6 +373,7 @@ extension\captcha.php #class ControllerExtensionCaptcha extends Controller
     protected function validate()
 
 extension\feed.php #class ControllerExtensionFeed extends Controller
+
     private $error
     public function index()
     public function install()
@@ -337,6 +382,7 @@ extension\feed.php #class ControllerExtensionFeed extends Controller
     protected function validate()
 
 extension\fraud.php #class ControllerExtensionFraud extends Controller
+
     private $error
     public function index()
     public function install()
@@ -345,6 +391,7 @@ extension\fraud.php #class ControllerExtensionFraud extends Controller
     protected function validate()
 
 extension\installer.php #class ControllerExtensionInstaller extends Controller
+
     private $error
     public function index()
     public function upload()
@@ -357,6 +404,7 @@ extension\installer.php #class ControllerExtensionInstaller extends Controller
     public function clear()
 
 extension\modification.php #class ControllerExtensionModification extends Controller
+
     private $error
     public function index()
     public function delete()
@@ -369,6 +417,7 @@ extension\modification.php #class ControllerExtensionModification extends Contro
     protected function validate()
 
 extension\module.php #class ControllerExtensionModule extends Controller
+
     private $error
     public function index()
     public function install()
@@ -379,6 +428,7 @@ extension\module.php #class ControllerExtensionModule extends Controller
     protected function validateDelete()
 
 extension\openbay.php #class ControllerExtensionOpenbay extends Controller
+
     private $error
     public function index()
     public function install()
@@ -405,6 +455,7 @@ extension\openbay.php #class ControllerExtensionOpenbay extends Controller
     public function purge()
 
 extension\payment.php #class ControllerExtensionPayment extends Controller
+
     private $error
     public function index()
     public function install()
@@ -413,6 +464,7 @@ extension\payment.php #class ControllerExtensionPayment extends Controller
     protected function validate()
 
 extension\shipping.php #class ControllerExtensionShipping extends Controller
+
     private $error
     public function index()
     public function install()
@@ -421,6 +473,7 @@ extension\shipping.php #class ControllerExtensionShipping extends Controller
     protected function validate()
 
 extension\total.php #class ControllerExtensionTotal extends Controller
+
     private $error
     public function index()
     public function install()
@@ -429,6 +482,7 @@ extension\total.php #class ControllerExtensionTotal extends Controller
     protected function validate()
 
 feed\google_base.php #class ControllerFeedGoogleBase extends Controller
+
     private $error
     public function index()
     protected function validate()
@@ -441,11 +495,13 @@ feed\google_base.php #class ControllerFeedGoogleBase extends Controller
     public function autocomplete()
 
 feed\google_sitemap.php #class ControllerFeedGoogleSitemap extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 feed\openbaypro.php #class ControllerFeedOpenbaypro extends Controller
+
     private $error
     public function index()
     protected function validate()
@@ -453,6 +509,7 @@ feed\openbaypro.php #class ControllerFeedOpenbaypro extends Controller
     public function uninstall()
 
 fraud\fraudlabspro.php #class ControllerFraudFraudLabsPro extends Controller
+
     private $error
     public function index()
     public function install()
@@ -462,6 +519,7 @@ fraud\fraudlabspro.php #class ControllerFraudFraudLabsPro extends Controller
     private function fix_case($s)
 
 fraud\ip.php #class ControllerFraudIp extends Controller
+
     private $error
     public function index()
     public function install()
@@ -472,6 +530,7 @@ fraud\ip.php #class ControllerFraudIp extends Controller
     public function removeIp()
 
 fraud\maxmind.php #class ControllerFraudMaxMind extends Controller
+
     private $error
     public function index()
     public function install()
@@ -480,6 +539,7 @@ fraud\maxmind.php #class ControllerFraudMaxMind extends Controller
     public function order()
 
 localisation\country.php #class ControllerLocalisationCountry extends Controller
+
     private $error
     public function index()
     public function add()
@@ -492,6 +552,7 @@ localisation\country.php #class ControllerLocalisationCountry extends Controller
     public function country()
 
 localisation\currency.php #class ControllerLocalisationCurrency extends Controller
+
     private $error
     public function index()
     public function add()
@@ -505,6 +566,7 @@ localisation\currency.php #class ControllerLocalisationCurrency extends Controll
     protected function validateRefresh()
 
 localisation\geo_zone.php #class ControllerLocalisationGeoZone extends Controller
+
     private $error
     public function index()
     public function add()
@@ -518,6 +580,7 @@ localisation\geo_zone.php #class ControllerLocalisationGeoZone extends Controlle
     public function zone()
 
 localisation\language.php #class ControllerLocalisationLanguage extends Controller
+
     private $error
     public function index()
     public function add()
@@ -530,6 +593,7 @@ localisation\language.php #class ControllerLocalisationLanguage extends Controll
     protected function validateDelete()
 
 localisation\length_class.php #class ControllerLocalisationLengthClass extends Controller
+
     private $error
     public function index()
     public function add()
@@ -542,6 +606,7 @@ localisation\length_class.php #class ControllerLocalisationLengthClass extends C
     protected function validateDelete()
 
 localisation\location.php #class ControllerLocalisationLocation extends Controller
+
     private $error
     public function index()
     public function add()
@@ -554,6 +619,7 @@ localisation\location.php #class ControllerLocalisationLocation extends Controll
     protected function validateDelete()
 
 localisation\order_status.php #class ControllerLocalisationOrderStatus extends Controller
+
     private $error
     public function index()
     public function add()
@@ -566,6 +632,7 @@ localisation\order_status.php #class ControllerLocalisationOrderStatus extends C
     protected function validateDelete()
 
 localisation\return_action.php #class ControllerLocalisationReturnAction extends Controller
+
     private $error
     public function index()
     public function add()
@@ -578,6 +645,7 @@ localisation\return_action.php #class ControllerLocalisationReturnAction extends
     protected function validateDelete()
 
 localisation\return_reason.php #class ControllerLocalisationReturnReason extends Controller
+
     private $error
     public function index()
     public function add()
@@ -590,6 +658,7 @@ localisation\return_reason.php #class ControllerLocalisationReturnReason extends
     protected function validateDelete()
 
 localisation\return_status.php #class ControllerLocalisationReturnStatus extends Controller
+
     private $error
     public function index()
     public function add()
@@ -602,6 +671,7 @@ localisation\return_status.php #class ControllerLocalisationReturnStatus extends
     protected function validateDelete()
 
 localisation\stock_status.php #class ControllerLocalisationStockStatus extends Controller
+
     private $error
     public function index()
     public function add()
@@ -614,6 +684,7 @@ localisation\stock_status.php #class ControllerLocalisationStockStatus extends C
     protected function validateDelete()
 
 localisation\tax_class.php #class ControllerLocalisationTaxClass extends Controller
+
     private $error
     public function index()
     public function add()
@@ -626,6 +697,7 @@ localisation\tax_class.php #class ControllerLocalisationTaxClass extends Control
     protected function validateDelete()
 
 localisation\tax_rate.php #class ControllerLocalisationTaxRate extends Controller
+
     private $error
     public function index()
     public function add()
@@ -638,6 +710,7 @@ localisation\tax_rate.php #class ControllerLocalisationTaxRate extends Controlle
     protected function validateDelete()
 
 localisation\weight_class.php #class ControllerLocalisationWeightClass extends Controller
+
     private $error
     public function index()
     public function add()
@@ -650,6 +723,7 @@ localisation\weight_class.php #class ControllerLocalisationWeightClass extends C
     protected function validateDelete()
 
 localisation\zone.php #class ControllerLocalisationZone extends Controller
+
     private $error
     public function index()
     public function add()
@@ -662,6 +736,7 @@ localisation\zone.php #class ControllerLocalisationZone extends Controller
     protected function validateDelete()
 
 marketing\affiliate.php #class ControllerMarketingAffiliate extends Controller
+
     private $error
     public function index()
     public function add()
@@ -680,11 +755,13 @@ marketing\affiliate.php #class ControllerMarketingAffiliate extends Controller
     public function autocomplete()
 
 marketing\contact.php #class ControllerMarketingContact extends Controller
+
     private $error
     public function index()
     public function send()
 
 marketing\coupon.php #class ControllerMarketingCoupon extends Controller
+
     private $error
     public function index()
     public function add()
@@ -698,6 +775,7 @@ marketing\coupon.php #class ControllerMarketingCoupon extends Controller
     public function history()
 
 marketing\marketing.php #class ControllerMarketingMarketing extends Controller
+
     private $error
     public function index()
     public function add()
@@ -710,16 +788,19 @@ marketing\marketing.php #class ControllerMarketingMarketing extends Controller
     protected function validateDelete()
 
 module\account.php #class ControllerModuleAccount extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\affiliate.php #class ControllerModuleAffiliate extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\amazon_login.php #class ControllerModuleAmazonLogin extends Controller
+
     private $error
     public function index()
     protected function validate()
@@ -727,6 +808,7 @@ module\amazon_login.php #class ControllerModuleAmazonLogin extends Controller
     public function uninstall()
 
 module\amazon_pay.php #class ControllerModuleAmazonPay extends Controller
+
     private $error
     public function index()
     protected function validate()
@@ -734,65 +816,78 @@ module\amazon_pay.php #class ControllerModuleAmazonPay extends Controller
     public function uninstall()
 
 module\banner.php #class ControllerModuleBanner extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\bestseller.php #class ControllerModuleBestSeller extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\carousel.php #class ControllerModuleCarousel extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\category.php #class ControllerModuleCategory extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\ebay_listing.php #class ControllerModuleEbayListing extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\featured.php #class ControllerModuleFeatured extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\filter.php #class ControllerModulefilter extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\google_hangouts.php #class ControllerModuleGoogleHangouts extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\html.php #class ControllerModuleHTML extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\information.php #class ControllerModuleInformation extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\latest.php #class ControllerModuleLatest extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\pp_button.php #class ControllerModulePPButton extends Controller
+
     public function index()
     protected function validate()
 
 module\pp_login.php #class ControllerModulePPLogin extends Controller
+
     private $error
     public function index()
     protected function validate()
@@ -800,21 +895,25 @@ module\pp_login.php #class ControllerModulePPLogin extends Controller
     public function uninstall()
 
 module\slideshow.php #class ControllerModuleSlideshow extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\special.php #class ControllerModuleSpecial extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 module\store.php #class ControllerModuleStore extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 openbay\amazon.php #class ControllerOpenbayAmazon extends Controller
+
     public function install()
     public function uninstall()
     public function index()
@@ -838,6 +937,7 @@ openbay\amazon.php #class ControllerOpenbayAmazon extends Controller
     public function doFullStockSync()
 
 openbay\amazonus.php #class ControllerOpenbayAmazonus extends Controller
+
     public function install()
     public function uninstall()
     public function index()
@@ -861,6 +961,7 @@ openbay\amazonus.php #class ControllerOpenbayAmazonus extends Controller
     public function doFullStockSync()
 
 openbay\amazonus_listing.php #class ControllerOpenbayAmazonusListing extends Controller
+
     public function create()
     public function edit()
     public function createNew()
@@ -871,6 +972,7 @@ openbay\amazonus_listing.php #class ControllerOpenbayAmazonusListing extends Con
     public function getBrowseNodes()
 
 openbay\amazonus_product.php #class ControllerOpenbayAmazonusProduct extends Controller
+
     public function index()
     public function removeErrors()
     public function deleteSaved()
@@ -884,6 +986,7 @@ openbay\amazonus_product.php #class ControllerOpenbayAmazonusProduct extends Con
     private function formatUrlsInText($text)
 
 openbay\amazon_listing.php #class ControllerOpenbayAmazonListing extends Controller
+
     public function create()
     public function edit()
     public function createNew()
@@ -894,6 +997,7 @@ openbay\amazon_listing.php #class ControllerOpenbayAmazonListing extends Control
     public function getBrowseNodes()
 
 openbay\amazon_product.php #class ControllerOpenbayAmazonProduct extends Controller
+
     public function index()
     public function removeErrors()
     public function deleteSaved()
@@ -907,6 +1011,7 @@ openbay\amazon_product.php #class ControllerOpenbayAmazonProduct extends Control
     private function formatUrlsInText($text)
 
 openbay\ebay.php #class ControllerOpenbayEbay extends Controller
+
     public function install()
     public function uninstall()
     public function index()
@@ -960,6 +1065,7 @@ openbay\ebay.php #class ControllerOpenbayEbay extends Controller
     public function getItemRecommendations()
 
 openbay\ebay_profile.php #class ControllerOpenbayEbayProfile extends Controller
+
     private $error
     public function profileAll()
     public function add()
@@ -970,6 +1076,7 @@ openbay\ebay_profile.php #class ControllerOpenbayEbayProfile extends Controller
     private function profileValidate()
 
 openbay\ebay_template.php #class ControllerOpenbayEbayTemplate extends Controller
+
     private $error
     public function listAll()
     public function add()
@@ -979,6 +1086,7 @@ openbay\ebay_template.php #class ControllerOpenbayEbayTemplate extends Controlle
     private function templateValidate()
 
 openbay\etsy.php #class ControllerOpenbayEtsy extends Controller
+
     public function install()
     public function uninstall()
     public function index()
@@ -988,6 +1096,7 @@ openbay\etsy.php #class ControllerOpenbayEtsy extends Controller
     protected function validate()
 
 openbay\etsy_product.php #class ControllerOpenbayEtsyProduct extends Controller
+
     private $error
     public function create()
     public function createSubmit()
@@ -1006,12 +1115,15 @@ openbay\etsy_product.php #class ControllerOpenbayEtsyProduct extends Controller
     public function activateListing()
 
 openbay\etsy_shipping.php #class ControllerOpenbayEtsyShipping extends Controller
+
     public function getAll()
 
 openbay\etsy_shop.php #class ControllerOpenbayEtsyShop extends Controller
+
     public function getSections()
 
 payment\amazon_login_pay.php #class ControllerPaymentAmazonLoginPay extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1023,21 +1135,25 @@ payment\amazon_login_pay.php #class ControllerPaymentAmazonLoginPay extends Cont
     protected function validate() {
 
 payment\authorizenet_aim.php #class ControllerPaymentAuthorizenetAim extends Controller
+
     private $error
     public function index() {
     protected function validate() {
 
 payment\authorizenet_sim.php #class ControllerPaymentAuthorizeNetSim extends Controller
+
     private $error
     public function index() {
     protected function validate() {
 
 payment\bank_transfer.php #class ControllerPaymentBankTransfer extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\bluepay_hosted.php #class ControllerPaymentBluePayHosted extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1050,6 +1166,7 @@ payment\bluepay_hosted.php #class ControllerPaymentBluePayHosted extends Control
     public function callback() {
 
 payment\bluepay_redirect.php #class ControllerPaymentBluepayredirect extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1062,16 +1179,19 @@ payment\bluepay_redirect.php #class ControllerPaymentBluepayredirect extends Con
     public function callback() {
 
 payment\cheque.php #class ControllerPaymentCheque extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\cod.php #class ControllerPaymentCod extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\firstdata.php #class ControllerPaymentFirstdata extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1082,6 +1202,7 @@ payment\firstdata.php #class ControllerPaymentFirstdata extends Controller
     protected function validate() {
 
 payment\firstdata_remote.php #class ControllerPaymentFirstdataRemote extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1093,11 +1214,13 @@ payment\firstdata_remote.php #class ControllerPaymentFirstdataRemote extends Con
     protected function validate() {
 
 payment\free_checkout.php #class ControllerPaymentFreeCheckout extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\g2apay.php #class ControllerPaymentG2APay extends Controller
+
     private $error
     public function index() {
     public function order() {
@@ -1107,6 +1230,7 @@ payment\g2apay.php #class ControllerPaymentG2APay extends Controller
     protected function validate() {
 
 payment\globalpay.php #class ControllerPaymentGlobalpay extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1117,6 +1241,7 @@ payment\globalpay.php #class ControllerPaymentGlobalpay extends Controller
     protected function validate() {
 
 payment\globalpay_remote.php #class ControllerPaymentGlobalpayRemote extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1127,6 +1252,7 @@ payment\globalpay_remote.php #class ControllerPaymentGlobalpayRemote extends Con
     protected function validate() {
 
 payment\klarna_account.php #class ControllerPaymentKlarnaAccount extends Controller
+
     private $error
     private $pclasses
     public function index() {
@@ -1135,6 +1261,7 @@ payment\klarna_account.php #class ControllerPaymentKlarnaAccount extends Control
     public function clear() {
 
 payment\klarna_invoice.php #class ControllerPaymentKlarnaInvoice extends Controller
+
     private $error
     private $pclasses
     public function index() {
@@ -1143,36 +1270,43 @@ payment\klarna_invoice.php #class ControllerPaymentKlarnaInvoice extends Control
     public function clear() {
 
 payment\liqpay.php #class ControllerPaymentLiqPay extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\nochex.php #class ControllerPaymentNOCHEX extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\paymate.php #class ControllerPaymentPayMate extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\paypoint.php #class ControllerPaymentPayPoint extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\payza.php #class ControllerPaymentPayza extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\perpetual_payments.php #class ControllerPaymentPerpetualPayments extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\pp_express.php #class ControllerPaymentPPExpress extends Controller
+
     private $error
     public function index() {
     public function imageLogo() {
@@ -1195,11 +1329,13 @@ payment\pp_express.php #class ControllerPaymentPPExpress extends Controller
     public function recurringButtons() {
 
 payment\pp_payflow.php #class ControllerPaymentPPPayflow extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\pp_payflow_iframe.php #class ControllerPaymentPPPayflowIframe extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1212,11 +1348,13 @@ payment\pp_payflow_iframe.php #class ControllerPaymentPPPayflowIframe extends Co
     protected function validate() {
 
 payment\pp_pro.php #class ControllerPaymentPPPro extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\pp_pro_iframe.php #class ControllerPaymentPPProIframe extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1232,11 +1370,13 @@ payment\pp_pro_iframe.php #class ControllerPaymentPPProIframe extends Controller
     protected function validate() {
 
 payment\pp_standard.php #class ControllerPaymentPPStandard extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\realex.php #class ControllerPaymentRealex extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1247,6 +1387,7 @@ payment\realex.php #class ControllerPaymentRealex extends Controller
     protected function validate() {
 
 payment\realex_remote.php #class ControllerPaymentRealexRemote extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1257,6 +1398,7 @@ payment\realex_remote.php #class ControllerPaymentRealexRemote extends Controlle
     protected function validate() {
 
 payment\sagepay_direct.php #class ControllerPaymentSagepayDirect extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1268,6 +1410,7 @@ payment\sagepay_direct.php #class ControllerPaymentSagepayDirect extends Control
     protected function validate() {
 
 payment\sagepay_server.php #class ControllerPaymentSagepayServer extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1279,11 +1422,13 @@ payment\sagepay_server.php #class ControllerPaymentSagepayServer extends Control
     protected function validate() {
 
 payment\sagepay_us.php #class ControllerPaymentSagepayUS extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\securetrading_pp.php #class ControllerPaymentSecureTradingPp extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1295,6 +1440,7 @@ payment\securetrading_pp.php #class ControllerPaymentSecureTradingPp extends Con
     protected function validate() {
 
 payment\securetrading_ws.php #class ControllerPaymentSecureTradingWs extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1308,21 +1454,25 @@ payment\securetrading_ws.php #class ControllerPaymentSecureTradingWs extends Con
     protected function validate() {
 
 payment\skrill.php #class ControllerPaymentSkrill extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\twocheckout.php #class ControllerPaymentTwoCheckout extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\web_payment_software.php #class ControllerPaymentWebPaymentSoftware extends Controller
+
     private $error
     public function index()
     protected function validate()
 
 payment\worldpay.php #class ControllerPaymentWorldpay extends Controller
+
     private $error
     public function index() {
     public function install() {
@@ -1332,52 +1482,68 @@ payment\worldpay.php #class ControllerPaymentWorldpay extends Controller
     protected function validate() {
 
 report\affiliate.php #class ControllerReportAffiliate extends Controller
+
     public function index()
 
 report\affiliate_activity.php #class ControllerReportAffiliateActivity extends Controller
+
     public function index()
 
 report\customer_activity.php #class ControllerReportCustomerActivity extends Controller
+
     public function index()
 
 report\customer_credit.php #class ControllerReportCustomerCredit extends Controller
+
     public function index()
 
 report\customer_online.php #class ControllerReportCustomerOnline extends Controller
+
     public function index()
 
 report\customer_order.php #class ControllerReportCustomerOrder extends Controller
+
     public function index()
 
 report\customer_reward.php #class ControllerReportCustomerReward extends Controller
+
     public function index()
 
 report\marketing.php #class ControllerReportMarketing extends Controller
+
     public function index()
 
 report\product_purchased.php #class ControllerReportProductPurchased extends Controller
+
     public function index()
 
 report\product_viewed.php #class ControllerReportProductViewed extends Controller
+
     public function index()
     public function reset()
 
 report\sale_coupon.php #class ControllerReportSaleCoupon extends Controller
+
     public function index()
 
 report\sale_order.php #class ControllerReportSaleOrder extends Controller
+
     public function index()
 
 report\sale_return.php #class ControllerReportSaleReturn extends Controller
+
     public function index()
 
 report\sale_shipping.php #class ControllerReportSaleShipping extends Controller
+
     public function index()
 
 report\sale_tax.php #class ControllerReportSaleTax extends Controller
+
     public function index()
 
 sale\order.php #class ControllerSaleOrder extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1395,12 +1561,14 @@ sale\order.php #class ControllerSaleOrder extends Controller
     public function shipping() {
 
 sale\recurring.php #class ControllerSaleRecurring extends Controller
+
     private $error
     public function index() {
     protected function getList() {
     public function info() {
 
 sale\return.php #class ControllerSaleReturn extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1413,6 +1581,7 @@ sale\return.php #class ControllerSaleReturn extends Controller
     public function history() {
 
 sale\voucher.php #class ControllerSaleVoucher extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1426,6 +1595,7 @@ sale\voucher.php #class ControllerSaleVoucher extends Controller
     public function send() {
 
 sale\voucher_theme.php #class ControllerSaleVoucherTheme extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1437,12 +1607,14 @@ sale\voucher_theme.php #class ControllerSaleVoucherTheme extends Controller
     protected function validateDelete() {
 
 setting\setting.php #class ControllerSettingSetting extends Controller
+
     private $error
     public function index() {
     protected function validate() {
     public function template() {
 
 setting\store.php #class ControllerSettingStore extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1455,77 +1627,92 @@ setting\store.php #class ControllerSettingStore extends Controller
     public function template() {
 
 shipping\auspost.php #class ControllerShippingAusPost extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\citylink.php #class ControllerShippingCitylink extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\fedex.php #class ControllerShippingFedex extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\flat.php #class ControllerShippingFlat extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\free.php #class ControllerShippingFree extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\item.php #class ControllerShippingItem extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\parcelforce_48.php #class ControllerShippingParcelforce48 extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\pickup.php #class ControllerShippingPickup extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\royal_mail.php #class ControllerShippingRoyalMail extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\ups.php #class ControllerShippingUPS extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\usps.php #class ControllerShippingUsps extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 shipping\weight.php #class ControllerShippingWeight extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 tool\backup.php #class ControllerToolBackup extends Controller
+
     private $error
     public function index() {
     public function backup() {
 
 tool\error_log.php #class ControllerToolErrorLog extends Controller
+
     private $error
     public function index() {
     public function download() {
     public function clear() {
 
 tool\upload.php #class ControllerToolUpload extends Controller
+
     private $error
     public function index() {
     public function delete() {
@@ -1535,56 +1722,67 @@ tool\upload.php #class ControllerToolUpload extends Controller
     public function upload() {
 
 total\coupon.php #class ControllerTotalCoupon extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\credit.php #class ControllerTotalCredit extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\handling.php #class ControllerTotalHandling extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\klarna_fee.php #class ControllerTotalKlarnaFee extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\low_order_fee.php #class ControllerTotalLowOrderFee extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\reward.php #class ControllerTotalReward extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\shipping.php #class ControllerTotalShipping extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\sub_total.php #class ControllerTotalSubTotal extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\tax.php #class ControllerTotalTax extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\total.php #class ControllerTotalTotal extends Controller
+
     private $error
     public function index() {
     protected function validate()
 
 total\voucher.php #class ControllerTotalVoucher extends Controller
+
     private $error
     public function index() {
     protected function validate() {
@@ -1592,6 +1790,7 @@ total\voucher.php #class ControllerTotalVoucher extends Controller
     public function uninstall() {
 
 user\api.php #class ControllerUserApi extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1605,6 +1804,7 @@ user\api.php #class ControllerUserApi extends Controller
     public function deleteSession() {
 
 user\user.php #class ControllerUserUser extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1616,6 +1816,7 @@ user\user.php #class ControllerUserUser extends Controller
     protected function validateDelete() {
 
 user\user_permission.php #class ControllerUserUserPermission extends Controller
+
     private $error
     public function index() {
     public function add() {
@@ -1631,6 +1832,7 @@ user\user_permission.php #class ControllerUserUserPermission extends Controller
 ### admin\model\
 
 catalog\attribute.php #class ModelCatalogAttribute extends Model
+
     public function addAttribute($data)
     public function editAttribute($attribute_id, $data)
     public function deleteAttribute($attribute_id)
@@ -1642,6 +1844,7 @@ catalog\attribute.php #class ModelCatalogAttribute extends Model
     public function getTotalAttributesByAttributeGroupId($attribute_group_id)
 
 catalog\attribute_group.php #class ModelCatalogAttributeGroup extends Model
+
     public function addAttributeGroup($data)
     public function editAttributeGroup($attribute_group_id, $data)
     public function deleteAttributeGroup($attribute_group_id)
@@ -1651,6 +1854,7 @@ catalog\attribute_group.php #class ModelCatalogAttributeGroup extends Model
     public function getTotalAttributeGroups()
 
 catalog\category.php #class ModelCatalogCategory extends Model
+
     public function addCategory($data)
     public function editCategory($category_id, $data)
     public function deleteCategory($category_id)
@@ -1665,6 +1869,7 @@ catalog\category.php #class ModelCatalogCategory extends Model
     public function getTotalCategoriesByLayoutId($layout_id)
 
 catalog\download.php #class ModelCatalogDownload extends Model
+
     public function addDownload($data)
     public function editDownload($download_id, $data)
     public function deleteDownload($download_id)
@@ -1674,6 +1879,7 @@ catalog\download.php #class ModelCatalogDownload extends Model
     public function getTotalDownloads()
 
 catalog\filter.php #class ModelCatalogFilter extends Model
+
     public function addFilter($data)
     public function editFilter($filter_group_id, $data)
     public function deleteFilter($filter_group_id)
@@ -1686,6 +1892,7 @@ catalog\filter.php #class ModelCatalogFilter extends Model
     public function getTotalFilterGroups()
 
 catalog\information.php #class ModelCatalogInformation extends Model
+
     public function addInformation($data)
     public function editInformation($information_id, $data)
     public function deleteInformation($information_id)
@@ -1698,6 +1905,7 @@ catalog\information.php #class ModelCatalogInformation extends Model
     public function getTotalInformationsByLayoutId($layout_id)
 
 catalog\manufacturer.php #class ModelCatalogManufacturer extends Model
+
     public function addManufacturer($data)
     public function editManufacturer($manufacturer_id, $data)
     public function deleteManufacturer($manufacturer_id)
@@ -1707,6 +1915,7 @@ catalog\manufacturer.php #class ModelCatalogManufacturer extends Model
     public function getTotalManufacturers()
 
 catalog\option.php #class ModelCatalogOption extends Model
+
     public function addOption($data)
     public function editOption($option_id, $data)
     public function deleteOption($option_id)
@@ -1719,6 +1928,7 @@ catalog\option.php #class ModelCatalogOption extends Model
     public function getTotalOptions()
 
 catalog\product.php #class ModelCatalogProduct extends Model
+
     public function addProduct($data)
     public function editProduct($product_id, $data)
     public function copyProduct($product_id)
@@ -1754,6 +1964,7 @@ catalog\product.php #class ModelCatalogProduct extends Model
     public function getTotalProductsByLayoutId($layout_id)
 
 catalog\recurring.php #class ModelCatalogRecurring extends Model
+
     public function addRecurring($data)
     public function editRecurring($recurring_id, $data)
     public function copyRecurring($recurring_id)
@@ -1764,6 +1975,7 @@ catalog\recurring.php #class ModelCatalogRecurring extends Model
     public function getTotalRecurrings()
 
 catalog\review.php #class ModelCatalogReview extends Model
+
     public function addReview($data)
     public function editReview($review_id, $data)
     public function deleteReview($review_id)
@@ -1773,9 +1985,11 @@ catalog\review.php #class ModelCatalogReview extends Model
     public function getTotalReviewsAwaitingApproval()
 
 catalog\url_alias.php #class ModelCatalogUrlAlias extends Model
+
     public function getUrlAlias($keyword)
 
 customer\customer.php #class ModelCustomerCustomer extends Model
+
     public function addCustomer($data)
     public function editCustomer($customer_id, $data)
     public function editToken($customer_id, $token)
@@ -1814,6 +2028,7 @@ customer\customer.php #class ModelCustomerCustomer extends Model
     public function deleteLoginAttempts($email)
 
 customer\customer_group.php #class ModelCustomerCustomerGroup extends Model
+
     public function addCustomerGroup($data)
     public function editCustomerGroup($customer_group_id, $data)
     public function deleteCustomerGroup($customer_group_id)
@@ -1823,6 +2038,7 @@ customer\customer_group.php #class ModelCustomerCustomerGroup extends Model
     public function getTotalCustomerGroups()
 
 customer\custom_field.php #class ModelCustomerCustomField extends Model
+
     public function addCustomField($data)
     public function editCustomField($custom_field_id, $data)
     public function deleteCustomField($custom_field_id)
@@ -1836,6 +2052,7 @@ customer\custom_field.php #class ModelCustomerCustomField extends Model
     public function getTotalCustomFields()
 
 design\banner.php #class ModelDesignBanner extends Model
+
     public function addBanner($data)
     public function editBanner($banner_id, $data)
     public function deleteBanner($banner_id)
@@ -1845,6 +2062,7 @@ design\banner.php #class ModelDesignBanner extends Model
     public function getTotalBanners()
 
 design\layout.php #class ModelDesignLayout extends Model
+
     public function addLayout($data)
     public function editLayout($layout_id, $data)
     public function deleteLayout($layout_id)
@@ -1855,15 +2073,18 @@ design\layout.php #class ModelDesignLayout extends Model
     public function getTotalLayouts()
 
 extension\event.php #class ModelExtensionEvent extends Model
+
     public function addEvent($code, $trigger, $action)
     public function deleteEvent($code)
 
 extension\extension.php #class ModelExtensionExtension extends Model
+
     public function getInstalled($type)
     public function install($type, $code)
     public function uninstall($type, $code)
 
 extension\modification.php #class ModelExtensionModification extends Model
+
     public function addModification($data)
     public function deleteModification($modification_id)
     public function enableModification($modification_id)
@@ -1874,6 +2095,7 @@ extension\modification.php #class ModelExtensionModification extends Model
     public function getModificationByCode($code)
 
 extension\module.php #class ModelExtensionModule extends Model
+
     public function addModule($code, $data)
     public function editModule($module_id, $data)
     public function deleteModule($module_id)
@@ -1883,6 +2105,7 @@ extension\module.php #class ModelExtensionModule extends Model
     public function deleteModulesByCode($code)
 
 feed\google_base.php #class ModelFeedGoogleBase extends Model
+
     public function install()
     public function uninstall()
     public function import($string)
@@ -1893,12 +2116,14 @@ feed\google_base.php #class ModelFeedGoogleBase extends Model
     public function getTotalCategories()
 
 fraud\fraudlabspro.php #class ModelFraudFraudLabsPro extends Model
+
     public function install()
     public function uninstall()
     public function getOrder($order_id)
     public function addOrderHistory($order_id, $data, $store_id = 0)
 
 fraud\ip.php #class ModelFraudIp extends Model
+
     public function install()
     public function uninstall()
     public function addIp($ip)
@@ -1908,11 +2133,13 @@ fraud\ip.php #class ModelFraudIp extends Model
     public function getTotalIpsByIp($ip)
 
 fraud\maxmind.php #class ModelFraudMaxMind extends Model
+
     public function install()
     public function uninstall()
     public function getOrder($order_id)
 
 localisation\country.php #class ModelLocalisationCountry extends Model
+
     public function addCountry($data)
     public function editCountry($country_id, $data)
     public function deleteCountry($country_id)
@@ -1921,6 +2148,7 @@ localisation\country.php #class ModelLocalisationCountry extends Model
     public function getTotalCountries()
 
 localisation\currency.php #class ModelLocalisationCurrency extends Model
+
     public function addCurrency($data)
     public function editCurrency($currency_id, $data)
     public function deleteCurrency($currency_id)
@@ -1931,6 +2159,7 @@ localisation\currency.php #class ModelLocalisationCurrency extends Model
     public function getTotalCurrencies()
 
 localisation\geo_zone.php #class ModelLocalisationGeoZone extends Model
+
     public function addGeoZone($data)
     public function editGeoZone($geo_zone_id, $data)
     public function deleteGeoZone($geo_zone_id)
@@ -1943,6 +2172,7 @@ localisation\geo_zone.php #class ModelLocalisationGeoZone extends Model
     public function getTotalZoneToGeoZoneByZoneId($zone_id)
 
 localisation\language.php #class ModelLocalisationLanguage extends Model
+
     public function addLanguage($data)
     public function editLanguage($language_id, $data)
     public function deleteLanguage($language_id)
@@ -1951,6 +2181,7 @@ localisation\language.php #class ModelLocalisationLanguage extends Model
     public function getTotalLanguages()
 
 localisation\length_class.php #class ModelLocalisationLengthClass extends Model
+
     public function addLengthClass($data)
     public function editLengthClass($length_class_id, $data)
     public function deleteLengthClass($length_class_id)
@@ -1961,6 +2192,7 @@ localisation\length_class.php #class ModelLocalisationLengthClass extends Model
     public function getTotalLengthClasses()
 
 localisation\location.php #class ModelLocalisationLocation extends Model
+
     public function addLocation($data)
     public function editLocation($location_id, $data)
     public function deleteLocation($location_id)
@@ -1969,6 +2201,7 @@ localisation\location.php #class ModelLocalisationLocation extends Model
     public function getTotalLocations()
 
 localisation\order_status.php #class ModelLocalisationOrderStatus extends Model
+
     public function addOrderStatus($data)
     public function editOrderStatus($order_status_id, $data)
     public function deleteOrderStatus($order_status_id)
@@ -1978,6 +2211,7 @@ localisation\order_status.php #class ModelLocalisationOrderStatus extends Model
     public function getTotalOrderStatuses()
 
 localisation\return_action.php #class ModelLocalisationReturnAction extends Model
+
     public function addReturnAction($data)
     public function editReturnAction($return_action_id, $data)
     public function deleteReturnAction($return_action_id)
@@ -1987,6 +2221,7 @@ localisation\return_action.php #class ModelLocalisationReturnAction extends Mode
     public function getTotalReturnActions()
 
 localisation\return_reason.php #class ModelLocalisationReturnReason extends Model
+
     public function addReturnReason($data)
     public function editReturnReason($return_reason_id, $data)
     public function deleteReturnReason($return_reason_id)
@@ -1996,6 +2231,7 @@ localisation\return_reason.php #class ModelLocalisationReturnReason extends Mode
     public function getTotalReturnReasons()
 
 localisation\return_status.php #class ModelLocalisationReturnStatus extends Model
+
     public function addReturnStatus($data)
     public function editReturnStatus($return_status_id, $data)
     public function deleteReturnStatus($return_status_id)
@@ -2005,6 +2241,7 @@ localisation\return_status.php #class ModelLocalisationReturnStatus extends Mode
     public function getTotalReturnStatuses()
 
 localisation\stock_status.php #class ModelLocalisationStockStatus extends Model
+
     public function addStockStatus($data)
     public function editStockStatus($stock_status_id, $data)
     public function deleteStockStatus($stock_status_id)
@@ -2014,6 +2251,7 @@ localisation\stock_status.php #class ModelLocalisationStockStatus extends Model
     public function getTotalStockStatuses()
 
 localisation\tax_class.php #class ModelLocalisationTaxClass extends Model
+
     public function addTaxClass($data)
     public function editTaxClass($tax_class_id, $data)
     public function deleteTaxClass($tax_class_id)
@@ -2024,6 +2262,7 @@ localisation\tax_class.php #class ModelLocalisationTaxClass extends Model
     public function getTotalTaxRulesByTaxRateId($tax_rate_id)
 
 localisation\tax_rate.php #class ModelLocalisationTaxRate extends Model
+
     public function addTaxRate($data)
     public function editTaxRate($tax_rate_id, $data)
     public function deleteTaxRate($tax_rate_id)
@@ -2034,6 +2273,7 @@ localisation\tax_rate.php #class ModelLocalisationTaxRate extends Model
     public function getTotalTaxRatesByGeoZoneId($geo_zone_id)
 
 localisation\weight_class.php #class ModelLocalisationWeightClass extends Model
+
     public function addWeightClass($data)
     public function editWeightClass($weight_class_id, $data)
     public function deleteWeightClass($weight_class_id)
@@ -2044,6 +2284,7 @@ localisation\weight_class.php #class ModelLocalisationWeightClass extends Model
     public function getTotalWeightClasses()
 
 localisation\zone.php #class ModelLocalisationZone extends Model
+
     public function addZone($data)
     public function editZone($zone_id, $data)
     public function deleteZone($zone_id)
@@ -2054,6 +2295,7 @@ localisation\zone.php #class ModelLocalisationZone extends Model
     public function getTotalZonesByCountryId($country_id)
 
 marketing\affiliate.php #class ModelMarketingAffiliate extends Model
+
     public function addAffiliate($data)
     public function editAffiliate($affiliate_id, $data)
     public function deleteAffiliate($affiliate_id)
@@ -2076,6 +2318,7 @@ marketing\affiliate.php #class ModelMarketingAffiliate extends Model
     public function deleteLoginAttempts($email)
 
 marketing\coupon.php #class ModelMarketingCoupon extends Model
+
     public function addCoupon($data)
     public function editCoupon($coupon_id, $data)
     public function deleteCoupon($coupon_id)
@@ -2089,6 +2332,7 @@ marketing\coupon.php #class ModelMarketingCoupon extends Model
     public function getTotalCouponHistories($coupon_id)
 
 marketing\marketing.php #class ModelMarketingMarketing extends Model
+
     public function addMarketing($data)
     public function editMarketing($marketing_id, $data)
     public function deleteMarketing($marketing_id)
@@ -2097,6 +2341,7 @@ marketing\marketing.php #class ModelMarketingMarketing extends Model
     public function getTotalMarketings($data = array())
 
 openbay\amazon.php #class ModelOpenbayAmazon extends Model
+
     public function install()
     public function uninstall()
     public function patch()
@@ -2133,6 +2378,7 @@ openbay\amazon.php #class ModelOpenbayAmazon extends Model
     public function getAsinLink($asin, $marketplace)
 
 openbay\amazonus.php #class ModelOpenbayAmazonus extends Model
+
     public function install()
     public function uninstall()
     public function patch()
@@ -2168,6 +2414,7 @@ openbay\amazonus.php #class ModelOpenbayAmazonus extends Model
     public function deleteListingReports()
 
 openbay\amazonus_listing.php #class ModelOpenbayAmazonusListing extends Model
+
     private $tabs
     public function search($search_string)
     public function getProductByAsin($asin)
@@ -2179,6 +2426,7 @@ openbay\amazonus_listing.php #class ModelOpenbayAmazonusListing extends Model
     public function doBulkSearch($search_data)
 
 openbay\amazon_listing.php #class ModelOpenbayAmazonListing extends Model
+
     private $tabs
     public function search($search_string, $marketplace)
     public function getProductByAsin($asin, $market)
@@ -2189,7 +2437,8 @@ openbay\amazon_listing.php #class ModelOpenbayAmazonListing extends Model
     public function deleteSearchResults($marketplace, $product_ids)
     public function doBulkListing($data)
 
-openbay\ebay.php #class ModelOpenbayEbay extends Model{
+openbay\ebay.php #class ModelOpenbayEbay extends Model
+
     public function install()
     public function uninstall()
     public function patch()
@@ -2223,6 +2472,7 @@ openbay\ebay.php #class ModelOpenbayEbay extends Model{
     public function getProductAttributes($product_id)
 
 openbay\ebay_product.php #class ModelOpenbayEbayProduct extends Model
+
     public function getTaxRate($class_id)
     public function countImportImages()
     public function getProductOptions($product_id)
@@ -2232,7 +2482,8 @@ openbay\ebay_product.php #class ModelOpenbayEbayProduct extends Model
     public function getPartsCompatibilityValues($filters)
     public function getItemRecommendations($filters)
 
-openbay\ebay_profile.php #class ModelOpenbayEbayProfile extends Model{
+openbay\ebay_profile.php #class ModelOpenbayEbayProfile extends Model
+
     public function add($data)
     public function edit($id, $data)
     public function delete($id)
@@ -2243,25 +2494,29 @@ openbay\ebay_profile.php #class ModelOpenbayEbayProfile extends Model{
     private function clearDefault($type)
 
 openbay\ebay_template.php #class ModelOpenbayEbayTemplate extends Model
+
     public function add($data)
     public function edit($id, $data)
     public function delete($id)
     public function get($id)
     public function getAll()
 
-openbay\etsy.php #class ModelOpenbayEtsy extends Model{
+openbay\etsy.php #class ModelOpenbayEtsy extends Model
+
     public function install()
     public function uninstall()
     public function patch()
     public function verifyAccount()
 
-openbay\etsy_product.php #class ModelOpenbayEtsyProduct extends Model{
+openbay\etsy_product.php #class ModelOpenbayEtsyProduct extends Model
+
     public function getStatus($product_id)
     public function totalLinked()
     public function addLink($product_id, $etsy_item_id, $status_id = 0)
     public function loadLinked($limit = 100, $page = 1)
 
 openbay\openbay.php #class ModelOpenbayOpenbay extends Model
+
     private $url = 'https://account.openbaypro.com/'
     private $error;
     public function patch()
@@ -2290,14 +2545,17 @@ openbay\openbay.php #class ModelOpenbayOpenbay extends Model
     public function addOrderHistory($order_id, $data, $store_id = 0)
 
 openbay\order.php #class ModelOpenbayOrder extends Model
+
     public function getTotalOrders($data = array())
     public function getOrders($data = array())
     public function getOrder($order_id)
 
 openbay\version.php #class ModelOpenbayVersion extends Model
+
     public function version()
 
 payment\amazon_login_pay.php #class ModelPaymentAmazonLoginPay extends Model
+
     public function install()
     public function uninstall()
     public function getOrder($order_id)
@@ -2325,6 +2583,7 @@ payment\amazon_login_pay.php #class ModelPaymentAmazonLoginPay extends Model
     public function logger($message)
 
 payment\bluepay_hosted.php #class ModelPaymentBluePayHosted extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2343,6 +2602,7 @@ payment\bluepay_hosted.php #class ModelPaymentBluePayHosted extends Model
     public function logger($message)
 
 payment\bluepay_redirect.php #class ModelPaymentBluepayredirect extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2361,6 +2621,7 @@ payment\bluepay_redirect.php #class ModelPaymentBluepayredirect extends Model
     public function logger($message)
 
 payment\firstdata.php #class ModelPaymentFirstdata extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2375,6 +2636,7 @@ payment\firstdata.php #class ModelPaymentFirstdata extends Model
     public function mapCurrency($code)
 
 payment\firstdata_remote.php #class ModelPaymentFirstdataRemote extends Model
+
     public function install()
     public function uninstall()
     public function call($xml)
@@ -2393,6 +2655,7 @@ payment\firstdata_remote.php #class ModelPaymentFirstdataRemote extends Model
     public function mapCurrency($code)
 
 payment\g2apay.php #class ModelPaymentG2aPay extends Model
+
     public function install()
     public function uninstall()
     public function getOrder($order_id)
@@ -2406,6 +2669,7 @@ payment\g2apay.php #class ModelPaymentG2aPay extends Model
     public function logger($message)
 
 payment\globalpay.php #class ModelPaymentGlobalpay extends Model
+
     public function install()
     public function void($order_id)
     public function updateVoidStatus($globalpay_order_id, $status)
@@ -2422,6 +2686,7 @@ payment\globalpay.php #class ModelPaymentGlobalpay extends Model
     public function getTotalRebated($globalpay_order_id)
 
 payment\globalpay_remote.php #class ModelPaymentGlobalpayRemote extends Model
+
     public function install()
     public function void($order_id)
     public function updateVoidStatus($globalpay_remote_order_id, $status)
@@ -2438,6 +2703,7 @@ payment\globalpay_remote.php #class ModelPaymentGlobalpayRemote extends Model
     public function getTotalRebated($globalpay_order_id)
 
 payment\pp_express.php #class ModelPaymentPPExpress extends Model
+
     public function install()
     public function uninstall()
     public function totalCaptured($paypal_order_id)
@@ -2462,6 +2728,7 @@ payment\pp_express.php #class ModelPaymentPPExpress extends Model
     private function curl($endpoint, $additional_opts = array())
 
 payment\pp_payflow_iframe.php #class ModelPaymentPPPayflowIFrame extends Model
+
     public function install()
     public function uninstall()
     public function log($message)
@@ -2473,6 +2740,7 @@ payment\pp_payflow_iframe.php #class ModelPaymentPPPayflowIFrame extends Model
     public function call($data)
 
 payment\pp_pro_iframe.php #class ModelPaymentPPProIframe extends Model
+
     public function install()
     public function uninstall()
     private function getTransactions($paypal_iframe_order_id)
@@ -2494,6 +2762,7 @@ payment\pp_pro_iframe.php #class ModelPaymentPPProIframe extends Model
     protected function cleanReturn($data)
 
 payment\realex.php #class ModelPaymentRealex extends Model
+
     public function install()
     public function void($order_id)
     public function updateVoidStatus($realex_order_id, $status)
@@ -2510,6 +2779,7 @@ payment\realex.php #class ModelPaymentRealex extends Model
     public function getTotalRebated($realex_order_id)
 
 payment\realex_remote.php #class ModelPaymentRealexRemote extends Model
+
     public function install()
     public function void($order_id)
     public function updateVoidStatus($realex_remote_order_id, $status)
@@ -2526,6 +2796,7 @@ payment\realex_remote.php #class ModelPaymentRealexRemote extends Model
     public function getTotalRebated($realex_order_id)
 
 payment\sagepay_direct.php #class ModelPaymentSagepayDirect extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2543,6 +2814,7 @@ payment\sagepay_direct.php #class ModelPaymentSagepayDirect extends Model
     public function logger($message)
 
 payment\sagepay_server.php #class ModelPaymentSagepayServer extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2560,6 +2832,7 @@ payment\sagepay_server.php #class ModelPaymentSagepayServer extends Model
     public function logger($message)
 
 payment\securetrading_pp.php #class ModelPaymentSecureTradingPp extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2578,6 +2851,7 @@ payment\securetrading_pp.php #class ModelPaymentSecureTradingPp extends Model
     public function logger($message)
 
 payment\securetrading_ws.php #class ModelPaymentSecureTradingWs extends Model
+
     public function install()
     public function uninstall()
     public function void($order_id)
@@ -2598,6 +2872,7 @@ payment\securetrading_ws.php #class ModelPaymentSecureTradingWs extends Model
     public function logger($message)
 
 payment\worldpay.php #class ModelPaymentWorldpay extends Model
+
     public function install()
     public function uninstall()
     public function refund($order_id, $amount)
@@ -2611,9 +2886,11 @@ payment\worldpay.php #class ModelPaymentWorldpay extends Model
     public function logger($message)
 
 report\activity.php #class ModelReportActivity extends Model
+
     public function getActivities()
 
 report\affiliate.php #class ModelReportAffiliate extends Model
+
     public function getCommission($data = array())
     public function getTotalCommission($data = array())
     public function getProducts($data = array())
@@ -2622,10 +2899,12 @@ report\affiliate.php #class ModelReportAffiliate extends Model
     public function getTotalAffiliateActivities($data = array())
 
 report\coupon.php #class ModelReportCoupon extends Model
+
     public function getCoupons($data = array())
     public function getTotalCoupons($data = array())
 
 report\customer.php #class ModelReportCustomer extends Model
+
     public function getTotalCustomersByDay()
     public function getTotalCustomersByWeek()
     public function getTotalCustomersByMonth()
@@ -2642,10 +2921,12 @@ report\customer.php #class ModelReportCustomer extends Model
     public function getTotalCustomerActivities($data = array())
 
 report\marketing.php #class ModelReportMarketing extends Model
+
     public function getMarketing($data = array())
     public function getTotalMarketing($data = array())
 
 report\product.php #class ModelReportProduct extends Model
+
     public function getProductsViewed($data = array())
     public function getTotalProductViews()
     public function getTotalProductsViewed()
@@ -2654,10 +2935,12 @@ report\product.php #class ModelReportProduct extends Model
     public function getTotalPurchased($data)
 
 report\return.php #class ModelReportReturn extends Model
+
     public function getReturns($data = array())
     public function getTotalReturns($data = array())
 
 report\sale.php #class ModelReportSale extends Model
+
     public function getTotalSales($data = array())
     public function getTotalOrdersByCountry()
     public function getTotalOrdersByDay()
@@ -2672,6 +2955,7 @@ report\sale.php #class ModelReportSale extends Model
     public function getTotalShipping($data = array())
 
 sale\order.php #class ModelSaleOrder extends Model
+
     public function getOrder($order_id)
     public function getOrders($data = array())
     public function getOrderProducts($order_id)
@@ -2694,6 +2978,7 @@ sale\order.php #class ModelSaleOrder extends Model
     public function getTotalEmailsByProductsOrdered($products)
 
 sale\recurring.php #class ModelSaleRecurring extends Model
+
     public function getTotalRecurrings($data)
     public function getRecurrings($data)
     public function getRecurring($order_recurring_id)
@@ -2701,6 +2986,7 @@ sale\recurring.php #class ModelSaleRecurring extends Model
     private function getStatus($status)
 
 sale\return.php #class ModelSaleReturn extends Model
+
     public function addReturn($data)
     public function editReturn($return_id, $data)
     public function deleteReturn($return_id)
@@ -2716,6 +3002,7 @@ sale\return.php #class ModelSaleReturn extends Model
     public function getTotalReturnHistoriesByReturnStatusId($return_status_id)
 
 sale\voucher.php #class ModelSaleVoucher extends Model
+
     public function addVoucher($data)
     public function editVoucher($voucher_id, $data)
     public function deleteVoucher($voucher_id)
@@ -2729,6 +3016,7 @@ sale\voucher.php #class ModelSaleVoucher extends Model
     public function getTotalVoucherHistories($voucher_id)
 
 sale\voucher_theme.php #class ModelSaleVoucherTheme extends Model
+
     public function addVoucherTheme($data)
     public function editVoucherTheme($voucher_theme_id, $data)
     public function deleteVoucherTheme($voucher_theme_id)
@@ -2738,12 +3026,14 @@ sale\voucher_theme.php #class ModelSaleVoucherTheme extends Model
     public function getTotalVoucherThemes()
 
 setting\setting.php #class ModelSettingSetting extends Model
+
     public function getSetting($code, $store_id = 0)
     public function editSetting($code, $data, $store_id = 0)
     public function deleteSetting($code, $store_id = 0)
     public function editSettingValue($code = '', $key = '', $value = '', $store_id = 0)
 
 setting\store.php #class ModelSettingStore extends Model
+
     public function addStore($data)
     public function editStore($store_id, $data)
     public function deleteStore($store_id)
@@ -2760,14 +3050,17 @@ setting\store.php #class ModelSettingStore extends Model
     public function getTotalStoresByOrderStatusId($order_status_id)
 
 tool\backup.php #class ModelToolBackup extends Model
+
     public function restore($sql)
     public function getTables()
     public function backup($tables)
 
 tool\image.php #class ModelToolImage extends Model
+
     public function resize($filename, $width, $height)
 
 tool\upload.php #class ModelToolUpload extends Model
+
     public function addUpload($name, $filename)
     public function deleteUpload($upload_id)
     public function getUpload($upload_id)
@@ -2776,6 +3069,7 @@ tool\upload.php #class ModelToolUpload extends Model
     public function getTotalUploads()
 
 user\api.php #class ModelUserApi extends Model
+
     public function addApi($data)
     public function editApi($api_id, $data)
     public function deleteApi($api_id)
@@ -2789,6 +3083,7 @@ user\api.php #class ModelUserApi extends Model
     public function deleteApiSession($api_session_id)
 
 user\user.php #class ModelUserUser extends Model
+
     public function addUser($data)
     public function editUser($user_id, $data)
     public function editPassword($user_id, $password)
@@ -2803,6 +3098,7 @@ user\user.php #class ModelUserUser extends Model
     public function getTotalUsersByEmail($email)
 
 user\user_group.php #class ModelUserUserGroup extends Model
+
     public function addUserGroup($data)
     public function editUserGroup($user_group_id, $data)
     public function deleteUserGroup($user_group_id)
@@ -2817,53 +3113,65 @@ user\user_group.php #class ModelUserUserGroup extends Model
 ### install\
 
 controller\footer.php #class ControllerFooter extends Controller
+
     public function index()
 
 controller\header.php #class ControllerHeader extends Controller
+
     public function index()
 
 controller\maxmind.php #class ControllerMaxmind extends Controller
+
     private $error
     public function index()
     private function validate()
 
 controller\openbay.php #class ControllerOpenbay extends Controller
+
     public function index()
 
 controller\step_1.php #class ControllerStep1 extends Controller
+
     public function index()
 
 controller\step_2.php #class ControllerStep2 extends Controller
+
     private $error
     public function index()
     private function validate()
 
 controller\step_3.php #class ControllerStep3 extends Controller
+
     private $error
     public function index()
     private function validate()
 
 controller\step_4.php #class ControllerStep4 extends Controller
+
     public function index()
     public function extensions()
     public function language()
 
 controller\upgrade.php #class ControllerUpgrade extends Controller
+
     private $error
     public function index()
     public function success()
     private function validate()
 
 model\install.php #class ModelInstall extends Model
+
     public function database($data)
 
 model\upgrade.php #class ModelUpgrade extends Model
+
     public function mysql()
     public function repairCategories($parent_id = 0)
 
 
 ### system\engine\
 action.php #class Action
+
     private $file
     private $class
     private $method
@@ -2872,12 +3180,14 @@ action.php #class Action
     public function execute($registry)
 
 controller.php #abstract class Controller
+
     protected $registry
     public function __construct($registry)
     public function __get($key)
     public function __set($key, $value)
 
 event.php #class Event
+
     private $data
     private $registry
     public function __construct($registry)
@@ -2888,6 +3198,7 @@ event.php #class Event
     protected function createAction($action, &$arg)
 
 front.php #final class Front
+
     private $registry
     private $pre_action
     private $error
@@ -2897,6 +3208,7 @@ front.php #final class Front
     private function execute($action)
 
 loader.php #final class Loader
+
     private $registry
     public function __construct($registry)
     public function controller($route, $data = array())
@@ -2907,12 +3219,14 @@ loader.php #final class Loader
     public function language($language)
 
 model.php #abstract class Model
+
     protected $registry
     public function __construct($registry)
     public function __get($key)
     public function __set($key, $value)
 
 registry.php #final class Registry
+
     private $data
     public function get($key)
     public function set($key, $value)
@@ -2922,6 +3236,7 @@ registry.php #final class Registry
 ### system\library\
 
 affiliate.php #class Affiliate
+
     private $affiliate_id
     private $firstname
     private $lastname
@@ -2942,6 +3257,7 @@ affiliate.php #class Affiliate
     public function getCode()
 
 cache\apc.php #class APC
+
     private $expire
     private $cache
     public function __construct($expire)
@@ -2950,6 +3266,7 @@ cache\apc.php #class APC
     public function delete($key)
 
 cache\file.php #class File
+
     private $expire
     public function __construct($expire = 3600)
     public function get($key)
@@ -2957,6 +3274,7 @@ cache\file.php #class File
     public function delete($key)
 
 cache\mem.php #class Mem
+
     private $expire
     private $cache
     public function __construct($expire)
@@ -2965,6 +3283,7 @@ cache\mem.php #class Mem
     public function delete($key)
 
 cache.php #class Cache
+
     private $cache
     public function __construct($driver, $expire = 3600)
     public function get($key)
@@ -2972,6 +3291,7 @@ cache.php #class Cache
     public function delete($key)
 
 cart.php #class Cart
+
     private $data
     public function __construct($registry)
     public function getProducts()
@@ -2992,6 +3312,7 @@ cart.php #class Cart
     public function hasDownload()
 
 config.php #class Config
+
     private $data
     public function get($key)
     public function set($key, $value)
@@ -2999,6 +3320,7 @@ config.php #class Config
     public function load($filename)
 
 currency.php #class Currency
+
     private $code
     private $currencies
     public function __construct($registry)
@@ -3014,6 +3336,7 @@ currency.php #class Currency
     public function has($currency)
 
 customer.php #class Customer
+
     private $customer_id
     private $firstname
     private $lastname
@@ -3040,6 +3363,7 @@ customer.php #class Customer
     public function getRewardPoints()
 
 db\mpdo.php #final class mPDO
+
     private $pdo
     private $statement
     public function __construct($hostname, $username, $password, $database, $port = '3306')
@@ -3053,6 +3377,7 @@ db\mpdo.php #final class mPDO
     public function __destruct()
 
 db\mssql.php #final class MSSQL
+
     private $link
     public function __construct($hostname, $username, $password, $database, $port = '1433')
     public function query($sql)
@@ -3062,6 +3387,7 @@ db\mssql.php #final class MSSQL
     public function __destruct()
 
 db\mysql.php #final class MySQL
+
     private $link
     public function __construct($hostname, $username, $password, $database, $port = '3306')
     public function query($sql)
@@ -3071,6 +3397,7 @@ db\mysql.php #final class MySQL
     public function __destruct()
 
 db\mysqli.php #final class MySQLi
+
     private $link
     public function __construct($hostname, $username, $password, $database, $port = '3306')
     public function query($sql)
@@ -3080,6 +3407,7 @@ db\mysqli.php #final class MySQLi
     public function __destruct()
 
 db\postgre.php #final class Postgre
+
     private $link
     public function __construct($hostname, $username, $password, $database, $port = '5432')
     public function query($sql)
@@ -3089,6 +3417,7 @@ db\postgre.php #final class Postgre
     public function __destruct()
 
 db.php #class DB
+
     private $db
     public function __construct($driver, $hostname, $username, $password, $database, $port = NULL)
     public function query($sql)
@@ -3097,6 +3426,7 @@ db.php #class DB
     public function getLastId()
 
 document.php #class Document
+
     private $title
     private $description
     private $keywords
@@ -3117,12 +3447,14 @@ document.php #class Document
     public function getScripts($postion = 'header')
 
 encryption.php #final class Encryption
+
     private $key
     public function __construct($key)
     public function encrypt($value)
     public function decrypt($value)
 
 image.php #class Image
+
     private $file
     private $image
     private $width
@@ -3147,6 +3479,7 @@ image.php #class Image
     private function html2rgb($color)
 
 language.php #class Language
+
     private $default = 'english'
     private $directory
     private $data
@@ -3156,6 +3489,7 @@ language.php #class Language
     public function load($filename)
 
 length.php #class Length
+
     private $lengths
     public function __construct($registry)
     public function convert($value, $from, $to)
@@ -3163,12 +3497,14 @@ length.php #class Length
     public function getUnit($length_class_id)
 
 log.php #class Log
+
     private $handle
     public function __construct($filename)
     public function write($message)
     public function __destruct()
 
 mail.php #class Mail
+
     protected $to
     protected $from
     protected $sender
@@ -3198,6 +3534,7 @@ mail.php #class Mail
     public function send()
 
 openbay\amazon.php #class Amazon
+
     private $token
     private $enc1
     private $enc2
@@ -3230,6 +3567,7 @@ openbay\amazon.php #class Amazon
     private static function compareFields($field1, $field2)
 
 openbay\amazonus.php #class Amazonus
+
     private $token
     private $enc1
     private $enc2
@@ -3262,6 +3600,7 @@ openbay\amazonus.php #class Amazonus
     private static function compareFields($field1, $field2)
 
 openbay\ebay.php #final class Ebay
+
     private $token
     private $enc1
     private $enc2
@@ -3329,6 +3668,7 @@ openbay\ebay.php #final class Ebay
     public function getShippingServiceInfo($service_code)
 
 openbay\etsy.php #final class Etsy
+
     private $token
     private $enc1
     private $enc2
@@ -3362,6 +3702,7 @@ openbay\etsy.php #final class Etsy
     public function validate()
 
 openbay.php #final class Openbay
+
     private $registry
     private $installed_modules
     public $installed_markets
@@ -3390,6 +3731,7 @@ openbay.php #final class Openbay
     public function getOrderProductVariant($order_id, $product_id, $order_product_id)
 
 pagination.php #class Pagination
+
     public $total = 0
     public $page = 1
     public $limit = 20
@@ -3402,6 +3744,7 @@ pagination.php #class Pagination
     public function render()
 
 request.php #class Request
+
     public $get
     public $post
     public $cookie
@@ -3411,6 +3754,7 @@ request.php #class Request
     public function clean($data)
 
 response.php #class Response
+
     private $headers
     private $level = 0
     private $output
@@ -3423,6 +3767,7 @@ response.php #class Response
     public function output()
 
 session.php #class Session
+
     public $data
     public function __construct($session_id = '',    $key = 'default')
     public function getId()
@@ -3430,6 +3775,7 @@ session.php #class Session
     public function destroy()
 
 tax.php #final class Tax
+
     private $tax_rates
     public function __construct($registry)
     public function setShippingAddress($country_id, $zone_id)
@@ -3442,17 +3788,20 @@ tax.php #final class Tax
     public function has($tax_class_id)
 
 template\php.php #class Template
+
     private $data
     public function set($key, $value)
     public function render()
 
 template.php #class Template
+
     private $data
     public function __construct($driver)
     public function set($key, $value)
     public function render()
 
 url.php #class Url
+
     private $domain
     private $ssl
     private $rewrite
@@ -3461,6 +3810,7 @@ url.php #class Url
     public function link($route, $args = '', $secure = false)
 
 user.php #class User
+
     private $user_id
     private $username
     private $permission
@@ -3474,6 +3824,7 @@ user.php #class User
     public function getGroupId()
 
 weight.php #class Weight
+
     private $weights
     public function __construct($registry)
     public function convert($value, $from, $to)
