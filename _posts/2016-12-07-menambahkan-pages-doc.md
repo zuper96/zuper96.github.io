@@ -419,7 +419,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
   
   Menjadi :
       
-  ```yml
+  <pre>
   
   - title: Topnav
     items:
@@ -439,7 +439,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
             url: /p1_landing_page.html
           - title: Product 2
             url: /p2_landing_page.html
-  ```
+  </pre>
 	
 {% include warning.html content=" Hindari penggunaan _TAB_ pada saat pengetikan." %}
 Selesai.
