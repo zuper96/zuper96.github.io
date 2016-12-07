@@ -13,6 +13,8 @@ topnav_dropdowns:
       folderitems:
         - title: vagrant
           url: /vagrant-vagrantfile.html
+        - title: php
+          url: /php_foreach.html
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
         - title: Product 1
