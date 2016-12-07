@@ -10,7 +10,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
 
 1. Pada _file_ `_config.yml` tambah nama _sidebars:_ berikut contohnya:
     
-  ```yml
+  <pre>
   	
   sidebars:
   - home_sidebar
@@ -21,11 +21,11 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
   - php_sidebar
   - other
   	
-  ```
+  </pre>
     	
 2. Pada _directory_ `_data\sidebars` buat file baru dengan nama misal `mydoc_sidebar.yml` _file_ ini berisi daftar menu _sidebar_. Penamaan `mydoc_sidebar.yml` harus mengikuti _sidebars:_ yang ada pada _file_ `_config.yml`. Berikut contohnya isi file `mydoc_sidebar.yml`:
     
-  ```yml
+  <pre>
   
   entries:
   - title: sidebar
@@ -329,7 +329,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
             url: /tag_troubleshooting.html
             output: web
   		  
-  ```
+  </pre>
     	
 3. Pada _directory_ `_includes\custom` _file_ `sidebarconfigs.html` tambahkan kontrol _sidebar_. Berikut contohnya :
     
@@ -410,34 +410,35 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
     
   _file_ yang ditambahkan :
       
-  ```yml
+  <pre>
   
   - title: Jekyll Documentation Theme
-           url: /mydoc_introduction.html
-  ```
+    url: /mydoc_introduction.html
+	  
+  </pre>
   
   Menjadi :
       
   ```yml
   
-     - title: Topnav
-       items:
-         - title: Archive
-           url: /blog_archive.html
-     #Topnav dropdowns
-     topnav_dropdowns:
-     - title: Topnav dropdowns
-       folders:
-         - title: Doc
-           folderitems:
-             - title: vagrant
-               url: /vagrant-vagrantfile.html
-             - title: Jekyll Documentation Theme
-               url: /mydoc_introduction.html
-             - title: Product 1
-               url: /p1_landing_page.html
-             - title: Product 2
-               url: /p2_landing_page.html
+  - title: Topnav
+    items:
+      - title: Archive
+        url: /blog_archive.html
+  #Topnav dropdowns
+  topnav_dropdowns:
+  - title: Topnav dropdowns
+    folders:
+      - title: Doc
+        folderitems:
+          - title: vagrant
+            url: /vagrant-vagrantfile.html
+          - title: Jekyll Documentation Theme
+            url: /mydoc_introduction.html
+          - title: Product 1
+            url: /p1_landing_page.html
+          - title: Product 2
+            url: /p2_landing_page.html
   ```
 	
 {% include warning.html content=" Hindari penggunaan _TAB_ pada saat pengetikan." %}
