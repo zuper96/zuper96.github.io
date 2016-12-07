@@ -23,7 +23,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
     	
     ```
     	
-    2. Pada _directory_ `_data\sidebars` buat file baru dengan nama misal `mydoc_sidebar.yml` _file_ ini berisi daftar menu _sidebar_. Penamaan `mydoc_sidebar.yml` harus mengikuti _sidebars:_ yang ada pada _file_ `_config.yml`. Berikut contohnya isi file `mydoc_sidebar.yml`:
+2. Pada _directory_ `_data\sidebars` buat file baru dengan nama misal `mydoc_sidebar.yml` _file_ ini berisi daftar menu _sidebar_. Penamaan `mydoc_sidebar.yml` harus mengikuti _sidebars:_ yang ada pada _file_ `_config.yml`. Berikut contohnya isi file `mydoc_sidebar.yml`:
     
     ```yml
     
@@ -331,7 +331,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
     		  
     ```
     	
-    3. Pada _directory_ `_includes\custom` _file_ `sidebarconfigs.html` tambahkan kontrol _sidebar_. Berikut contohnya :
+3. Pada _directory_ `_includes\custom` _file_ `sidebarconfigs.html` tambahkan kontrol _sidebar_. Berikut contohnya :
     
     _file_ yang ditambahkan :
     
@@ -382,7 +382,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
     </pre>
     {% endraw %}
     
-    4. Pada _directory_ `pages` buat _directory_ baru dengan nama `mydoc` semua dokumentasi disimpan didalam _dirctory_ ini dengan format _file_ `mydoc_nama_file_anda.md`. Buka _file_ yang sudah dibuat dan tambahkan _frontmatter_ sebagai berikut :
+4. Pada _directory_ `pages` buat _directory_ baru dengan nama `mydoc` semua dokumentasi disimpan didalam _dirctory_ ini dengan format _file_ `mydoc_nama_file_anda.md`. Buka _file_ yang sudah dibuat dan tambahkan _frontmatter_ sebagai berikut :
     
     {% raw %}
     <pre>
@@ -406,7 +406,7 @@ Berikut cara menambahakan _pages_ pada _Jekyll documentation theme_ :
     </pre>
     {% endraw %}
     
-    5. Agar mudah di akses tambahkan di `_topnav.yml` yang berada di _directory_ `_data`. Berikut contohnya :
+5. Agar mudah di akses tambahkan di `_topnav.yml` yang berada di _directory_ `_data`. Berikut contohnya :
     
     _file_ yang ditambahkan :
         
