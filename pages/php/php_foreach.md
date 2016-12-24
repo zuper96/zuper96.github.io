@@ -153,4 +153,65 @@ Desember
 Harapannya adalah bulan Agustus dan September ditampilkan ternyata tidak ada, kenapa?
 angka 0 di depan menandakan bahwa index menggunakan bilangan octal (0-7) sedangkan 8 dan 9 bukan bilangan octal.
 
+### Contoh 4 (dua dimensi) :
+
+```php
+<?php
+$queryrows = array();
+$queryrows[0]["language_id"] = "2";
+$queryrows[0]["name"] = "Bahasa Indonesia";
+$queryrows[0]["code"] = "id";
+$queryrows[0]["locale"] = "id_ID.UTF-8,id_ID,id-id,Indonesia";
+$queryrows[0]["image"] = "id.png";
+$queryrows[0]["directory"] = "indonesia";
+$queryrows[0]["sort_order"] = "1";
+$queryrows[0]["status"] = "1";
+
+foreach ($queryrows as $result) {
+	$languages[$result['code']] = $result;
+}
+
+echo '<pre>';
+var_dump ($queryrows);
+echo '</pre>';
+echo '============= <br>';
+echo '<pre>';
+var_dump ($languages);
+echo '</pre>';
+?>
+```
+
+### hasil : Contoh 4
+
+<pre>
+array(1) 
+{
+  [0]=>  array(8) 
+  {
+    ["language_id"]=>    string(1) "2"
+    ["name"]=>    string(16) "Bahasa Indonesia"
+    ["code"]=>    string(2) "id"
+    ["locale"]=>    string(33) "id_ID.UTF-8,id_ID,id-id,Indonesia"
+    ["image"]=>    string(6) "id.png"
+    ["directory"]=>    string(9) "indonesia"
+    ["sort_order"]=>    string(1) "1"
+    ["status"]=>    string(1) "1"
+  }
+}
+=============
+array(1) {
+  ["id"]=>  array(8) 
+  {
+    ["language_id"]=>    string(1) "2"
+    ["name"]=>    string(16) "Bahasa Indonesia"
+    ["code"]=>    string(2) "id"
+    ["locale"]=>    string(33) "id_ID.UTF-8,id_ID,id-id,Indonesia"
+    ["image"]=>    string(6) "id.png"
+    ["directory"]=>    string(9) "indonesia"
+    ["sort_order"]=>    string(1) "1"
+    ["status"]=>    string(1) "1"
+  }
+}
+</pre>
+
 {% include links.html %}
